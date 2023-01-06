@@ -19,9 +19,7 @@ export default {
   mounted(el, bind) {
     console.log("mounted", bind.value);
     if (bind.value) {
-      el.style.setProperty("::-webkit-scrollbar", `${scrollbar}`);
-      el.style.setProperty("::-webkit-scrollbar-thumb", `${scrollbarthumb}`);
-      el.style.setProperty("::-webkit-scrollbar-track", `${scrollbartrack}`);
+      el.style.setProperty("overflow", "auto");
     }
   },
   updated(el, bind) {

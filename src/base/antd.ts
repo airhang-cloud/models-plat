@@ -8,6 +8,7 @@ import {
   PageHeader,
   Row,
   Slider,
+  Typography,
 } from "ant-design-vue";
 import "ant-design-vue/dist/antd.css";
 app.use(Button);
@@ -17,4 +18,5 @@ app.use(Menu);
 app.use(Layout);
 app.use(Slider);
 app.use(PageHeader);
+app.use(Typography);
 app.config.globalProperties.$message = message;
