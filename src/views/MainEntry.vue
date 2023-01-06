@@ -29,8 +29,8 @@
                 <MailOutlined />
               </template>
               <template #title>Navigation One</template>
-              <a-menu-item key="/mainentry/demoone">菜单1</a-menu-item>
-              <a-menu-item key="/mainentry/demotwo">菜单2</a-menu-item>
+              <a-menu-item key="/demoone">菜单1</a-menu-item>
+              <a-menu-item key="/demotwo">菜单2</a-menu-item>
             </a-sub-menu>
           </a-menu>
         </a-layout-sider>
@@ -39,7 +39,7 @@
             <a-col
               :span="18"
               class="scroll-menu"
-              style="overflow-y: auto; height: 85%"
+              style="overflow-y: auto; height: 100%"
             >
               <typo-graphy-info />
             </a-col>
