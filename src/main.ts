@@ -1,6 +1,8 @@
-import { createApp } from "vue";
-import App from "./App.vue";
+import { app } from "@/base";
 import router from "./router";
 import store from "./store";
 
-createApp(App).use(store).use(router).mount("#app");
+import "@/directives/index";
+import "@/base/antd";
+
+app.use(store).use(router).mount("#app");
