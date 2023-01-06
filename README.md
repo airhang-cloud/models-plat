@@ -20,5 +20,6 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### demo-pic
+
+![img](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-464a60af-1470-40d3-a597-2f8903e5789e/3507d314-d0ea-4c1e-b2d0-9c012aef22d3.png)

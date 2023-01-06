@@ -5,6 +5,7 @@ import {
   Layout,
   Menu,
   message,
+  PageHeader,
   Row,
   Slider,
 } from "ant-design-vue";
@@ -15,4 +16,5 @@ app.use(Col);
 app.use(Menu);
 app.use(Layout);
 app.use(Slider);
+app.use(PageHeader);
 app.config.globalProperties.$message = message;
